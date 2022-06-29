@@ -1,0 +1,633 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0; 
+    
+    
+}
+
+@font-face{
+    font-family: OpenSans-regular;
+    src: url(../fonts/OpenSans-Regular.woff);
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face{
+    font-family: OpenSans-bold;
+    src: url(../fonts/OpenSans-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face{
+    font-family: Bebas;
+    src: url(../fonts/bebas-neue-bold.woff);
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+html {
+    font-family: OpenSans-regular; 
+}
+    
+
+.bg {
+    background-image: url(C:/Users/Fedroff/Documents/GitHub/konstruct/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+  
+    
+           
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+    
+}
+
+.logo-white {
+    margin-top: 30px;
+    
+}
+
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.header-name  {
+    font-family: Bebas;
+    text-transform: uppercase;
+    color: white;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 5px;
+}
+
+.header-inscription {
+    color: white;
+    font-size: 20px;
+    line-height: 22px;
+       
+    
+
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom:110px;
+    text-transform: uppercase;
+    color: white;
+    
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 4px;
+    text-align: center;
+
+
+
+}
+
+
+.logo-black {
+    height: 30px;
+
+}
+
+.logo-menu {    
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #48555B;
+    font-weight: 500;
+
+  
+}
+
+.menu-list li {
+    margin-left: 35px;
+    list-style: none;
+    
+    
+  }
+
+.menu-list li a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.menu-list li a:hover {
+    color: rgba(0, 164, 229, 1);
+}
+
+.menu {
+       
+}
+
+.header-story {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    color: #48555B;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding-top: 10px;
+
+    
+}
+
+.header-story::after {
+    content: "";
+    background-color: rgba(0, 164, 229, 1);
+    position: absolute;
+    height: 3px;
+    width: 66px;
+    top: 50px;
+    right: 0;
+    left: 0;
+    bottom:0;
+    margin: 0 auto;
+}
+
+.story {
+    display: flex;
+    max-width: 1400px;   
+    margin: 80px auto;
+    justify-content: space-between;
+   
+}
+
+.story-text {
+    max-width: 55%;
+}
+    
+
+
+.header-story-text {
+    font-size: 24px;
+    line-height: 32px;
+    color:rgba(72, 85, 91, 1);
+    
+
+}
+
+.inscription-story-text {
+    margin-top: 15px;
+    color: #48555B;
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+
+
+
+
+.story-img {
+   display: flex;
+   
+     
+}
+
+.card--1 { background-image: url(../images/Bitmap.png);
+    
+}
+
+.card--2 {
+    background-image: url(../images/Bitmap1.png)
+    
+}
+
+.card--3 {
+    background-image: url(../images/Bitmap2.png)
+    
+}
+
+
+.logo-story {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    min-width: 160px;
+    
+    margin-left: 60px;
+    
+}
+
+/*.logo-story:nth-child(n+2) {
+    margin-left: 20px;
+}*/
+
+.we-plan {
+    
+    
+    
+
+
+}
+
+.we-plan-text {
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    
+
+}
+
+.capabilites {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-capabilites {
+    position: relative;
+    color: #48555B;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+   
+}
+
+.header-capabilites::after {
+    content: "";
+    background-color: rgba(0, 164, 229, 1);
+    position: absolute;
+    height: 3px;
+    width: 66px;
+    top: 35px;
+    right: 0;
+    left: 0;
+    bottom:0;
+    
+}
+
+.capabilites-text {
+    max-width: 500px;
+    color: rgba(72, 85, 91, 1);
+    max-width: 500px;
+    color: rgba(72, 85, 91, 1);
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+.capabilites-button {
+    box-sizing: border-box;
+    width: 170px;
+    height: 40px;
+    padding: 3px 18px;
+    border: none;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 20px;
+    background-color: #00A4E5;;
+    text-transform: uppercase;
+}
+
+
+
+
+.capability-card {
+    display: grid;
+    max-width: 1400px;
+    margin: 100px auto 0px auto;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 50px;
+    
+}
+
+.capability-card-1 {
+    border: 1px solid #E6E6E6;
+    padding: 30px 20px 40px 20px;
+   
+
+
+}
+
+
+.capability-img {
+    margin-bottom: 20px;
+}
+
+.header-capability-text {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    color: #48555B;
+    font-weight: bold;
+    
+}
+
+
+.inscription-capability-text {
+    font-size: 14px;
+    line-height: 23px;
+    color: #48555B;
+}
+
+.creat {
+    background-image: url(C:/Users/Fedroff/Documents/GitHub/konstruct/images/bg2footer.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    
+    
+
+}
+
+.creat-header {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #48555B;
+    max-width: 500px;
+    text-align: center;    
+    letter-spacing: 1px;
+
+
+
+}
+
+.creat-button {
+    box-sizing: border-box;
+    width: 170px;
+    height: 40px;
+    padding: 3px 18px;
+    border: none;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;   
+    background-color: #00A4E5;;
+    text-transform: uppercase;    
+    margin-top: 15px;
+   
+}
+
+.sign {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+.sign-container {
+
+
+}
+
+
+.sign-header {
+    color: white;
+    font-size: 26px;
+    line-height: 30px;
+ 
+}
+
+.field {
+    box-sizing: border-box;
+    width: 320px;
+    height: 40px;
+    padding-left: 10px;
+    margin-left: 100px;
+    
+}
+
+.button-sign {
+    box-sizing: border-box;
+    width: 150px;
+    height: 40px;
+    padding: 3px 18px;
+    border: none;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;   
+    background-color: #00A4E5;;
+    text-transform: uppercase;    
+    
+}
+
+
+
+
+
+.footer-1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;    
+    height: 210px;
+    
+    
+
+}
+
+
+
+
+
+.footer-company {
+    width: 20%;
+    
+
+}
+
+.header-company {
+    text-transform: uppercase;    
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    
+    
+    
+
+}
+
+.logo-header {
+    width: 150px;
+    margin-bottom: 10px;
+    
+}
+
+.footer-list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);   
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+}
+
+
+.footer-list li a {
+    line-height: 30px;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-list li a:hover {
+    color: rgba(0, 164, 229, 1);
+}
+
+.footer-company-text {
+    
+    font-size: 12px;
+    
+    
+}
+
+
+.footer-links {
+    width: 25%;
+    margin-left: 50px;
+}
+
+
+
+
+.footer-list {
+    
+}
+
+.footer-contacts {
+    width: 8%;
+    padding: 0 50px;
+    
+}
+
+
+.footer-contacts-text {
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.footer-img {
+  width: 10%;  
+}
+
+.footer-adress {
+    display: flex;
+    margin-top: 50px;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+.adress-link {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    background-color: white;
+    margin-left: 10px;
+    
+}
+
+
+.adress-link:hover {
+    
+    background-color: rgba(0, 164, 229, 1);
+    
+}
+
+
+
+
+
+.twitter {
+    background-image: url(../svg/twitter-svgrepo-com.svg);
+    width: 35px;
+}
+
+.facebook {
+    background-image: url(../svg/facebook-svgrepo-com-white.svg);
+    
+}
+
+.google {
+    background-image: url(../svg/google-plus-svgrepo-com12345.svg);
+    width: 40px;
+    
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: black;
+    padding: 25px;
+}
+
+
+
